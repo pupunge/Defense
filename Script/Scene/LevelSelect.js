@@ -1,0 +1,26 @@
+var UILevelSelect = {
+    titleText : [8, 48]
+};
+
+function loopLevelSelect() {
+    displayLevelSelect();
+}
+
+function displayLevelSelect() {
+    context.fillStyle = 'Black';
+    context.strokeStyle = 'Black';
+    context.lineWidth = 2;
+    context.font = '48px Opensans';
+
+    context.clearRect(0, 0, 1024, 640);
+
+    context.fillText(`Select level`, UILevelSelect.titleText[0], UILevelSelect.titleText[1]);
+}
+
+function mouseUpLevelSelect(x, y) {
+
+}
+
+function keyDownLevelSelect(key) {
+    
+}

@@ -19,7 +19,7 @@ function displaySaveSelect() {
 
     context.clearRect(0, 0, 1024, 640);
 
-    context.fillText(`Select save file`, UISaveSelect.titleText[0], UISaveSelect.titleText[1]);
+    context.fillText(`Select save file.`, UISaveSelect.titleText[0], UISaveSelect.titleText[1]);
 
     // Save file section
     if (save.new === true) {

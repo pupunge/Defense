@@ -18,3 +18,11 @@ function eraseFile() {
     localStorage.setItem('DesserterriaDefense', JSON.stringify(emptyFile));
     save = JSON.parse(localStorage.getItem('DesserterriaDefense'));
 }
+
+function startNewGame() {
+
+}
+
+function saveFileLoad() {
+    
+}

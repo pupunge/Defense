@@ -4,5 +4,5 @@ const emptyFile = {
     levelCleared : [],
     collectionCard : [],
     collectionItem : [],
-    progress : [],
+    progress : {},
 };

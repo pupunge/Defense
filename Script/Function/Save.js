@@ -20,7 +20,12 @@ function eraseFile() {
 }
 
 function startNewGame() {
-
+    save.new = false;
+    save.gold = 50;
+    save.levelCleared = [0, 1, 0, 0, 0, 0, 0, 0];
+    save.collectionCard = [0, 1, 0, 0, 0, 0, 0, 0];
+    save.collectionItem = [];
+    progress = {};
 }
 
 function saveFileLoad() {

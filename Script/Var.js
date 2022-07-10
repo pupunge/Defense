@@ -9,6 +9,8 @@ var pause = false;
 
 var save = {};
 
+var camera = [0, 0];
+
 var player = {
     hand : [],
     deckPrimial : [],

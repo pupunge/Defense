@@ -10,6 +10,7 @@ var pause = false;
 var save = {};
 
 var camera = [0, 0];
+var selectedLevel = -1;
 
 var player = {
     hand : [],

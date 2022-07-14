@@ -1,6 +1,11 @@
 var UIGame = {
     titleText : [8, 48],
-    backButton : [928, 32, 64, 64]
+    backButton : [928, 32, 64, 64],
+
+    start : {
+        rect : [128, 128, 768, 384],
+
+    }
 }; 
 
 function loopGame() {
@@ -19,6 +24,8 @@ function displayGame() {
 
     if (state === 'Start') {
         context.fillText(`Build a deck.`, UIGame.titleText[0], UIGame.titleText[1]);
+
+        context.strokeRect(UIGame.start.rect[0], UIGame.start.rect[1], UIGame.start.rect[2], UIGame.start.rect[3]);
     }
 }
 
